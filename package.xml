@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gps_compass</name>
+  <version>0.1.0</version>
+  <description>Publica datos de GPS y brújula desde ESP32</description>
+  <maintainer email="tucorreo@dominio.com">Tu Nombre</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+</package>
