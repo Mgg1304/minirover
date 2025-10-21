@@ -41,7 +41,7 @@ class GPSCompassNode(Node):
             # Buscar velocidad
             elif line.startswith("Velocidad:"):
                 speed_val = re.findall(r"[-+]?\d*\.\d+|\d+", line)
-                if speed_val:
+                if len(speed_val) >= 2:
                     speed_msg = Float32()
                     speed_msg.data = float(speed_val[0])
                     self.vel_pub.publish(speed_msg)
