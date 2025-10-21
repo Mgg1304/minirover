@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'keyboard_control'
+package_name = 'minirover_control'
 
 setup(
     name=package_name,
@@ -13,7 +13,7 @@ setup(
     description='Nodo ROS2 para controlar Arduino con flechas del teclado',
     entry_points={
         'console_scripts': [
-            'keyboard_node = keyboard_control.keyboard_control_node:main',
+            'keyboard_node = minirover_control.keyboard_control_node:main',
         ],
     },
 )

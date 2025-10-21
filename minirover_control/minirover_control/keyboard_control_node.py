@@ -5,7 +5,7 @@ from pynput import keyboard
 
 class KeyboardControl(Node):
     def __init__(self):
-        super().__init__('keyboard_control')
+        super().__init__('minirover_control')
         self.publisher = self.create_publisher(String, 'arduino/cmd', 10)
         self.get_logger().info("Nodo de control por teclado iniciado. Usa flechas ↑↓←→ para controlar el dron.")
 

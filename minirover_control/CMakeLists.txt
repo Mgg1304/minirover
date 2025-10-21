@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(minirover_sensores)
+project(minirover_control)
 
 # Usamos ament para Python
 find_package(ament_cmake_python REQUIRED)

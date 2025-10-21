@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>keyboard_control</name>
+  <name>minirover_control</name>
   <version>0.1.0</version>
   <description>Nodo ROS2 para controlar Arduino usando las flechas del teclado</description>
   <maintainer email="tu@correo.com">Tu Nombre</maintainer>
