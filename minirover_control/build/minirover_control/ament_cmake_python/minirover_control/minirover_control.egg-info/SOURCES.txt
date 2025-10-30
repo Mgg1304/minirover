@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+minirover_control/__init__.py
+minirover_control/keyboard_control_node.py
+minirover_control.egg-info/PKG-INFO
+minirover_control.egg-info/SOURCES.txt
+minirover_control.egg-info/dependency_links.txt
+minirover_control.egg-info/top_level.txt

@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000921] (minirover_control) JobQueued: {'identifier': 'minirover_control', 'dependencies': OrderedDict()}
+[0.001763] (minirover_control) JobStarted: {'identifier': 'minirover_control'}
+[0.043681] (minirover_control) JobProgress: {'identifier': 'minirover_control', 'progress': 'cmake'}
+[0.046600] (minirover_control) Command: {'cmd': ['/usr/bin/cmake', '/home/minirover/ros2_ws/src/minirover/minirover_control', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control'], 'cwd': '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minirover', 'SSH_CLIENT': '192.168.1.40 63355 22', 'ROS_PACKAGE_PATH': '/home/minirover/ros2_ws/install/minirover_control/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/minirover', 'OLDPWD': '/home/minirover/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/minirover/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'minirover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/minirover/ros2_ws/install/minirover_control/lib/aarch64-linux-gnu/pkgconfig:/home/minirover/ros2_ws/install/minirover_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/minirover/ros2_ws/install/minirover_sensores/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/minirover/ros2_ws/install/minirover_sensores:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.40 63355 192.168.1.42 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/minirover/ros2_ws/install/minirover_control/lib/python3.12/site-packages:/home/minirover/ros2_ws/build/minirover_sensores:/home/minirover/ros2_ws/install/minirover_sensores/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/minirover/ros2_ws/install/minirover_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099209] (-) TimerEvent: {}
+[0.199843] (-) TimerEvent: {}
+[0.300529] (-) TimerEvent: {}
+[0.382351] (minirover_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400695] (-) TimerEvent: {}
+[0.501384] (-) TimerEvent: {}
+[0.602095] (-) TimerEvent: {}
+[0.698712] (minirover_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.702251] (-) TimerEvent: {}
+[0.797046] (minirover_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802427] (-) TimerEvent: {}
+[0.903053] (-) TimerEvent: {}
+[1.003800] (-) TimerEvent: {}
+[1.104518] (-) TimerEvent: {}
+[1.205180] (-) TimerEvent: {}
+[1.305933] (-) TimerEvent: {}
+[1.335013] (minirover_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.376767] (minirover_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.377833] (minirover_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.379595] (minirover_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.406113] (-) TimerEvent: {}
+[1.435915] (minirover_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.506353] (-) TimerEvent: {}
+[1.607024] (-) TimerEvent: {}
+[1.707760] (-) TimerEvent: {}
+[1.808477] (-) TimerEvent: {}
+[1.909238] (-) TimerEvent: {}
+[2.010004] (-) TimerEvent: {}
+[2.013239] (minirover_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.056590] (minirover_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.057780] (minirover_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.059884] (minirover_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.093093] (minirover_control) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.110128] (-) TimerEvent: {}
+[2.210674] (-) TimerEvent: {}
+[2.311288] (-) TimerEvent: {}
+[2.411913] (-) TimerEvent: {}
+[2.512492] (-) TimerEvent: {}
+[2.613076] (-) TimerEvent: {}
+[2.713603] (-) TimerEvent: {}
+[2.814215] (-) TimerEvent: {}
+[2.914949] (-) TimerEvent: {}
+[2.925118] (minirover_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.015100] (-) TimerEvent: {}
+[3.115693] (-) TimerEvent: {}
+[3.216429] (-) TimerEvent: {}
+[3.317009] (-) TimerEvent: {}
+[3.417602] (-) TimerEvent: {}
+[3.518220] (-) TimerEvent: {}
+[3.618805] (-) TimerEvent: {}
+[3.719400] (-) TimerEvent: {}
+[3.820017] (-) TimerEvent: {}
+[3.920668] (-) TimerEvent: {}
+[4.021307] (-) TimerEvent: {}
+[4.121934] (-) TimerEvent: {}
+[4.222601] (-) TimerEvent: {}
+[4.323255] (-) TimerEvent: {}
+[4.423905] (-) TimerEvent: {}
+[4.524493] (-) TimerEvent: {}
+[4.625205] (-) TimerEvent: {}
+[4.673291] (minirover_control) StdoutLine: {'line': b'-- Configuring done (4.6s)\n'}
+[4.712479] (minirover_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.718340] (minirover_control) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[4.719003] (minirover_control) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[4.719462] (minirover_control) StderrLine: {'line': b'\n'}
+[4.719906] (minirover_control) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[4.720308] (minirover_control) StderrLine: {'line': b'    CATKIN_SYMLINK_INSTALL\n'}
+[4.720748] (minirover_control) StderrLine: {'line': b'\n'}
+[4.721205] (minirover_control) StderrLine: {'line': b'\x1b[0m\n'}
+[4.725336] (-) TimerEvent: {}
+[4.727382] (minirover_control) StdoutLine: {'line': b'-- Build files have been written to: /home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control\n'}
+[4.748568] (minirover_control) CommandEnded: {'returncode': 0}
+[4.750220] (minirover_control) JobProgress: {'identifier': 'minirover_control', 'progress': 'build'}
+[4.752349] (minirover_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', '--', '-j4', '-l4'], 'cwd': '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minirover', 'SSH_CLIENT': '192.168.1.40 63355 22', 'ROS_PACKAGE_PATH': '/home/minirover/ros2_ws/install/minirover_control/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/minirover', 'OLDPWD': '/home/minirover/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/minirover/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'minirover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/minirover/ros2_ws/install/minirover_control/lib/aarch64-linux-gnu/pkgconfig:/home/minirover/ros2_ws/install/minirover_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/minirover/ros2_ws/install/minirover_sensores/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/minirover/ros2_ws/install/minirover_sensores:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.40 63355 192.168.1.42 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/minirover/ros2_ws/install/minirover_control/lib/python3.12/site-packages:/home/minirover/ros2_ws/build/minirover_sensores:/home/minirover/ros2_ws/install/minirover_sensores/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/minirover/ros2_ws/install/minirover_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.825558] (-) TimerEvent: {}
+[4.926411] (-) TimerEvent: {}
+[5.027164] (-) TimerEvent: {}
+[5.088690] (minirover_control) StdoutLine: {'line': b'Built target ament_cmake_python_copy_minirover_control_setup\n'}
+[5.092586] (minirover_control) StdoutLine: {'line': b'Built target ament_cmake_python_copy_minirover_control\n'}
+[5.127389] (-) TimerEvent: {}
+[5.228118] (-) TimerEvent: {}
+[5.328688] (-) TimerEvent: {}
+[5.429312] (-) TimerEvent: {}
+[5.529908] (-) TimerEvent: {}
+[5.630499] (-) TimerEvent: {}
+[5.731108] (-) TimerEvent: {}
+[5.831641] (-) TimerEvent: {}
+[5.932224] (-) TimerEvent: {}
+[6.032895] (-) TimerEvent: {}
+[6.133472] (-) TimerEvent: {}
+[6.173417] (minirover_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.177021] (minirover_control) StdoutLine: {'line': b'creating minirover_control.egg-info\n'}
+[6.233623] (-) TimerEvent: {}
+[6.274074] (minirover_control) StdoutLine: {'line': b'writing minirover_control.egg-info/PKG-INFO\n'}
+[6.275067] (minirover_control) StdoutLine: {'line': b'writing dependency_links to minirover_control.egg-info/dependency_links.txt\n'}
+[6.276027] (minirover_control) StdoutLine: {'line': b'writing top-level names to minirover_control.egg-info/top_level.txt\n'}
+[6.276673] (minirover_control) StdoutLine: {'line': b"writing manifest file 'minirover_control.egg-info/SOURCES.txt'\n"}
+[6.333759] (-) TimerEvent: {}
+[6.434319] (-) TimerEvent: {}
+[6.534895] (-) TimerEvent: {}
+[6.566156] (minirover_control) StdoutLine: {'line': b"reading manifest file 'minirover_control.egg-info/SOURCES.txt'\n"}
+[6.568632] (minirover_control) StdoutLine: {'line': b"writing manifest file 'minirover_control.egg-info/SOURCES.txt'\n"}
+[6.635118] (-) TimerEvent: {}
+[6.718028] (minirover_control) StdoutLine: {'line': b'Built target ament_cmake_python_build_minirover_control_egg\n'}
+[6.735378] (-) TimerEvent: {}
+[6.776360] (minirover_control) CommandEnded: {'returncode': 0}
+[6.779526] (minirover_control) JobProgress: {'identifier': 'minirover_control', 'progress': 'install'}
+[6.832253] (minirover_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control'], 'cwd': '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'minirover', 'SSH_CLIENT': '192.168.1.40 63355 22', 'ROS_PACKAGE_PATH': '/home/minirover/ros2_ws/install/minirover_control/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/minirover', 'OLDPWD': '/home/minirover/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/minirover/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'minirover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/minirover/ros2_ws/install/minirover_control/lib/aarch64-linux-gnu/pkgconfig:/home/minirover/ros2_ws/install/minirover_control/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/minirover/ros2_ws/install/minirover_sensores/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/minirover/ros2_ws/install/minirover_sensores:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.40 63355 192.168.1.42 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/minirover/ros2_ws/install/minirover_control/lib/python3.12/site-packages:/home/minirover/ros2_ws/build/minirover_sensores:/home/minirover/ros2_ws/install/minirover_sensores/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/minirover/ros2_ws/install/minirover_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.835597] (-) TimerEvent: {}
+[6.879824] (minirover_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.880645] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/pythonpath.sh\n'}
+[6.882391] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/pythonpath.dsv\n'}
+[6.883918] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info\n'}
+[6.885232] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[6.886901] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[6.888437] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[6.890001] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[6.891652] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control\n'}
+[6.892556] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/keyboard_control_node.py\n'}
+[6.893996] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/__init__.py\n'}
+[6.935739] (-) TimerEvent: {}
+[7.036370] (-) TimerEvent: {}
+[7.080236] (minirover_control) StdoutLine: {'line': b"Listing '/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control'...\n"}
+[7.081433] (minirover_control) StdoutLine: {'line': b"Compiling '/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/__init__.py'...\n"}
+[7.082381] (minirover_control) StdoutLine: {'line': b"Compiling '/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/keyboard_control_node.py'...\n"}
+[7.112261] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/ament_index/resource_index/package_run_dependencies/minirover_control\n'}
+[7.114542] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/ament_index/resource_index/parent_prefix_path/minirover_control\n'}
+[7.116386] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/ament_prefix_path.sh\n'}
+[7.118288] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/ament_prefix_path.dsv\n'}
+[7.120430] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/path.sh\n'}
+[7.122390] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/path.dsv\n'}
+[7.124484] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.bash\n'}
+[7.126598] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.sh\n'}
+[7.128523] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.zsh\n'}
+[7.130131] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.dsv\n'}
+[7.131664] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/package.dsv\n'}
+[7.133691] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/ament_index/resource_index/packages/minirover_control\n'}
+[7.135662] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/cmake/minirover_controlConfig.cmake\n'}
+[7.136484] (-) TimerEvent: {}
+[7.137196] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/cmake/minirover_controlConfig-version.cmake\n'}
+[7.138832] (minirover_control) StdoutLine: {'line': b'-- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/package.xml\n'}
+[7.146952] (minirover_control) CommandEnded: {'returncode': 0}
+[7.237190] (-) TimerEvent: {}
+[7.240269] (minirover_control) JobEnded: {'identifier': 'minirover_control', 'rc': 0}
+[7.243295] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/uninstall.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/minirover_control_uninstall.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/ament_cmake_python_copy_minirover_control.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/ament_cmake_python_copy_minirover_control_setup.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/ament_cmake_python_build_minirover_control_egg.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/test.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/edit_cache.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/rebuild_cache.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/list_install_components.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/install.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/install/local.dir
+/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control/CMakeFiles/install/strip.dir

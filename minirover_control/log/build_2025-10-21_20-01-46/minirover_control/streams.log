@@ -1,0 +1,70 @@
+[0.054s] Invoking command in '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control': /usr/bin/cmake /home/minirover/ros2_ws/src/minirover/minirover_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control
+[0.381s] -- The C compiler identification is GNU 13.3.0
+[0.697s] -- The CXX compiler identification is GNU 13.3.0
+[0.796s] -- Detecting C compiler ABI info
+[1.334s] -- Detecting C compiler ABI info - done
+[1.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.376s] -- Detecting C compile features
+[1.378s] -- Detecting C compile features - done
+[1.435s] -- Detecting CXX compiler ABI info
+[2.012s] -- Detecting CXX compiler ABI info - done
+[2.055s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.056s] -- Detecting CXX compile features
+[2.058s] -- Detecting CXX compile features - done
+[2.092s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.924s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.672s] -- Configuring done (4.6s)
+[4.711s] -- Generating done (0.0s)
+[4.717s] [33mCMake Warning:
+[4.718s]   Manually-specified variables were not used by the project:
+[4.718s] 
+[4.718s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.719s]     CATKIN_SYMLINK_INSTALL
+[4.719s] 
+[4.720s] [0m
+[4.726s] -- Build files have been written to: /home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control
+[4.747s] Invoked command in '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control' returned '0': /usr/bin/cmake /home/minirover/ros2_ws/src/minirover/minirover_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control
+[4.754s] Invoking command in '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control': /usr/bin/cmake --build /home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control -- -j4 -l4
+[5.087s] Built target ament_cmake_python_copy_minirover_control_setup
+[5.091s] Built target ament_cmake_python_copy_minirover_control
+[6.172s] running egg_info
+[6.176s] creating minirover_control.egg-info
+[6.273s] writing minirover_control.egg-info/PKG-INFO
+[6.274s] writing dependency_links to minirover_control.egg-info/dependency_links.txt
+[6.275s] writing top-level names to minirover_control.egg-info/top_level.txt
+[6.275s] writing manifest file 'minirover_control.egg-info/SOURCES.txt'
+[6.565s] reading manifest file 'minirover_control.egg-info/SOURCES.txt'
+[6.567s] writing manifest file 'minirover_control.egg-info/SOURCES.txt'
+[6.717s] Built target ament_cmake_python_build_minirover_control_egg
+[6.775s] Invoked command in '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control' returned '0': /usr/bin/cmake --build /home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control -- -j4 -l4
+[6.832s] Invoking command in '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control': /usr/bin/cmake --install /home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control
+[6.879s] -- Install configuration: ""
+[6.879s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/pythonpath.sh
+[6.881s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/pythonpath.dsv
+[6.883s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info
+[6.884s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/dependency_links.txt
+[6.885s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/PKG-INFO
+[6.887s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/top_level.txt
+[6.889s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control-0.1.0-py3.12.egg-info/SOURCES.txt
+[6.890s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control
+[6.891s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/keyboard_control_node.py
+[6.893s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/__init__.py
+[7.079s] Listing '/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control'...
+[7.080s] Compiling '/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/__init__.py'...
+[7.081s] Compiling '/home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/lib/python3.12/site-packages/minirover_control/keyboard_control_node.py'...
+[7.111s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/ament_index/resource_index/package_run_dependencies/minirover_control
+[7.113s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/ament_index/resource_index/parent_prefix_path/minirover_control
+[7.115s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/ament_prefix_path.sh
+[7.117s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/ament_prefix_path.dsv
+[7.119s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/path.sh
+[7.121s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/environment/path.dsv
+[7.123s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.bash
+[7.125s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.sh
+[7.127s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.zsh
+[7.129s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/local_setup.dsv
+[7.130s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/package.dsv
+[7.132s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/ament_index/resource_index/packages/minirover_control
+[7.134s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/cmake/minirover_controlConfig.cmake
+[7.136s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/cmake/minirover_controlConfig-version.cmake
+[7.137s] -- Installing: /home/minirover/ros2_ws/src/minirover/minirover_control/install/minirover_control/share/minirover_control/package.xml
+[7.146s] Invoked command in '/home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control' returned '0': /usr/bin/cmake --install /home/minirover/ros2_ws/src/minirover/minirover_control/build/minirover_control
