@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>minirover_display</name>
+  <version>0.0.1</version>
+  <description>
+    Nodo de visualización para el proyecto Minirover.
+    Muestra información de sensores como GPS, brújula, velocidad y cámara en tiempo real.
+  </description>
+
+  <maintainer email="tu@correo.com">Tu nombre</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Dependencias de Python para GUI y cámara -->
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-tk</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-pil</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
