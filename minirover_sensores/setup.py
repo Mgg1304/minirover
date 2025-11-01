@@ -9,8 +9,6 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='Tu Nombre',
-    maintainer_email='tucorreo@dominio.com',
-    description='Publica datos de GPS y brújula desde ESP32',
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
