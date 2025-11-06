@@ -107,7 +107,7 @@ class DisplayNode(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = DisplayNode(camera_index=0)  # Cambia a None si no quieres cámara
+    node = DisplayNode(camera_index=None)  # Cambia a None si no quieres cámara
     
     try:
         rclpy.spin(node)

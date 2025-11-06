@@ -17,7 +17,8 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
-            'keyboard_control_node = minirover_control.keyboard_control_node:main'
+            'keyboard_control_node = minirover_control.keyboard_control_node:main',
+            'network_bridge_node = minirover_control.network_bridge_node:main',
         ],
     },
 )
