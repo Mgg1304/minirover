@@ -19,6 +19,7 @@ setup(
         'console_scripts': [
             'keyboard_control_node = minirover_control.keyboard_control_node:main',
             'network_bridge_node = minirover_control.network_bridge_node:main',
+            'esp_serial_node = minirover_control.esp_serial_node:main',
         ],
     },
 )

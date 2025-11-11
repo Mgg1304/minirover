@@ -12,8 +12,8 @@ class NetworkBridge(Node):
     def __init__(self):
         super().__init__('network_bridge')
 
-        # Publicador de comandos hacia Arduino
-        self.cmd_pub = self.create_publisher(String, 'arduino/cmd', 10)
+        # Publicador de comandos hacia ESP
+        self.cmd_pub = self.create_publisher(String, 'ESP/cmd', 10)
 
         # Variables de telemetría
         self.gps_data = None
