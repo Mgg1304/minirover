@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import io
+#from PIL import Image, ImageTk
+from sensor_msgs.msg import Image   
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import NavSatFix
@@ -7,11 +10,18 @@ import socket
 import threading
 import json
 import time
+from cv_bridge import CvBridge
+import struct
+import cv2
+
 
 class NetworkBridge(Node):
     def __init__(self):
         super().__init__('network_bridge')
 
+        # Crear la instancia de CvBridge
+        self.bridge = CvBridge()
+        
         # Publicador de comandos hacia ESP
         self.cmd_pub = self.create_publisher(String, 'ESP/cmd', 10)
 
@@ -24,6 +34,9 @@ class NetworkBridge(Node):
         self.create_subscription(NavSatFix, 'gps/fix', self.gps_callback, 10)
         self.create_subscription(Float32, 'compass/heading', self.rumbo_callback, 10)
         self.create_subscription(Float32, 'gps/speed', self.vel_callback, 10)
+        self.create_subscription(Image, 'minirover/images', self.image_callback, 10)
+
+        self.image_bytes = None
 
         # Hilos de red
         threading.Thread(target=self.command_server, daemon=True).start()
@@ -40,6 +53,18 @@ class NetworkBridge(Node):
 
     def vel_callback(self, msg):
         self.velocidad = msg.data
+
+    def image_callback(self, msg):
+        try:
+            cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+            # Codificar a JPEG
+            _, buffer = cv2.imencode('.jpg', cv_image)
+            self.image_bytes = buffer.tobytes()
+            self.get_logger().info("Imagen actualizada")
+        except Exception as e:
+            self.get_logger().error(f'Error convirtiendo imagen: {e}')
+
+
 
     # --- Servidor para recibir comandos desde el PC ---
     def command_server(self):
@@ -77,9 +102,15 @@ class NetworkBridge(Node):
             }
             try:
                 conn.sendall((json.dumps(telemetry) + "\n").encode())
+                # Enviar imagen si existe
+                if self.image_bytes:
+                    # Primero enviar tamaño de la imagen (4 bytes)
+                    conn.sendall(struct.pack(">I", len(self.image_bytes)))
+                    # Luego enviar los bytes de la imagen
+                    conn.sendall(self.image_bytes)
             except:
                 break
-            time.sleep(1)
+            time.sleep(0.1)
 
 def main(args=None):
     rclpy.init(args=args)

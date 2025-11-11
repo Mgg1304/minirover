@@ -14,7 +14,8 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
-            'display_node = minirover_display.display_node:main'
+            'display_node = minirover_display.display_node:main',
+            'camera_publisher = minirover_display.camera_publisher:main'
         ],
     },
 )
