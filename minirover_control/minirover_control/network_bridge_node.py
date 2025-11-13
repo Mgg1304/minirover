@@ -110,7 +110,7 @@ class NetworkBridge(Node):
                     conn.sendall(self.image_bytes)
             except:
                 break
-            time.sleep(0.1)
+            time.sleep(1/30)
 
 def main(args=None):
     rclpy.init(args=args)
